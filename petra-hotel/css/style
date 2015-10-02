@@ -1,0 +1,135 @@
+html body{
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+#logo{
+	 width: 150px;
+    margin-top: 22px;
+
+        float: left;
+    position: relative;
+    top: -12px;
+    left: 13px;
+}
+
+#logo,#menu,#pulsanti{
+	
+	display: inline-block;
+}
+#menu ul {
+	list-style: none;
+	margin: 20px;
+
+}
+#menu li {
+	display: inline-block;
+	border-style: solid;
+	border-width: thin;
+	border-color: #B1B1B1;
+	width: 137px;
+	text-align: center;
+
+}
+#menu a {
+	text-decoration: none;
+	padding: 14px;
+	color: #B1B1B1;
+
+}
+#menu i{
+	color: #B1B1B1;
+}
+#pulsanti a {
+	color: #B1B1B1;
+	display: inline-block;
+	border-style: solid;
+	border-width: thin;
+	border-color: #B1B1B1;
+	width: 80px;
+    text-align: center;
+
+}
+
+p{
+	font-size: 14px;
+	text-align: center;
+	height: 150px;
+	padding: 22px;
+	width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+	font-weight: bold;
+	font-size: 22px;
+    text-align: center;
+    margin-top: 65px;
+}
+h2 i {
+	color: black;
+	display: inline-block;
+}
+#mfoto ul {
+	list-style: none;
+	margin: 0;
+	text-align: center;
+}
+
+#mfoto li{
+	display: inline-block;
+	width: 280px;
+}
+
+#mfoto a {
+	text-decoration: none;
+	
+}
+
+#mfoto img {
+    height: 200px;
+}
+h3 {
+	font-weight: bold;
+	font-size: 20px;
+    text-align: center;
+    color: black;
+    margin: 0;
+}
+#mfoto p {
+	text-align: center;
+    width: 250px;
+    color: black;
+    margin: 0;
+    padding: 10px; 
+}
+#testimonial P {
+	
+	color: white;
+	height: 250px;
+	text-align: center;
+	padding: 180px
+
+}
+#testimonials h2 {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px
+}
+
+#services {
+    width: 1173px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#partners {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1273px;
+}
+footer {
+	background: url('../img/footer-bg.jpg');
+	height: 350px;
+	width: 1350px;
+	text-align: center;
+}

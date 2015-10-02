@@ -1,0 +1,181 @@
+body
+{
+	margin: 0;
+	height: 594px;
+    width: 1349PX;
+}
+#header
+{
+	height: 600px;
+    background: url('../img/slider1.jpg');
+    margin: 0;
+}
+#header h1 , nav 
+{
+	display: inline-block;
+}
+#header h1
+{
+	font-family: 'Pacifico', cursive;
+	font-size: 50px;
+	color: white;
+	margin-left: 80px;
+    margin-top: 0;
+}
+#header nav
+{
+	float: right;
+	margin-top: 22px;
+	margin-right: 70px;
+}
+#header ul
+{
+	width: 100px;
+}
+#header li 
+{
+	font-family: 'Roboto Condensed',sans-serif;
+	font-size: 14px;
+	color: #fa6e84;
+	font-weight: bold;
+}
+#header h2
+{
+	font-family: 'Sail', cursive;
+	text-align: center;
+	font-size: 60px;
+	color: white;
+	font-weight: normal;
+	margin-top: 120px;
+	margin-bottom: 10px;
+}
+#header p
+ {
+ 	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: normal;
+	width: 1163px;
+}
+#contenuto
+{
+	height: 200px;
+	margin: 0 auto;
+}
+#contenuto h3
+{
+	text-align: center;
+	font-family: 'Sail', cursive;
+	color: #fa6e84;
+	font-size: 38px;
+	font-weight: normal;
+	margin-top: 80px;
+}
+#contenuto p
+{
+	width: 1163px;
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #666666;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 14px;
+	line-height: 20px;
+}
+#foto ul
+{
+	text-decoration: none;
+	list-style: none;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1190px;
+	margin-top: 10px;
+}
+#foto li
+{
+	display: inline-block;
+	text-align: center;
+	width: 280px;
+}
+#foto h4
+{
+	font-family: 'Sail', cursive;
+	color: #fa6e84;
+	font-weight: normal;
+	font-size: 34px;
+	margin: 12px;
+}
+#foto img
+{
+	width: 227px;
+}
+#foto p
+{
+	width: 227px;
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #666666;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 14px;
+	line-height: 20px;
+}
+footer
+{
+	height: 300px;
+    width: 1349px;
+    background: #4C3C3C;
+}
+footer div
+{
+	display: inline-block;
+	margin-left: 58px;
+	margin-right: 58px;
+
+}
+footer h4 
+{
+	font-family: 'Sail', cursive;
+	color: #fa6e84;
+	font-weight: normal;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+footer li
+{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	font-size: 14px;
+}
+footer p 
+{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	font-size: 14px;
+}
+.titolo
+{
+	position: relative;
+	top: -103px;
+}
+.social 
+{
+	position: relative;
+    top: -50px;
+}
+.info 
+{
+    position: relative;
+    top: 15px;
+}
+#fine
+{
+	height: 75px;
+	width: 1349px;
+	background:#fa6e84;
+}

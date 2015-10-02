@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arvo', serif;
+}
+
+#content{
+ 	background: url('../img/bg.jpg');
+    height: 70%;
+	background-repeat: no-repeat;
+    background-size: cover;
+ }
+ footer {
+ 	background-color: #6D230D;
+ 	height: 30%;
+ }
+
+ #bottomFooter{
+ 	background:  url('../img/footer-top-bg.jpg');
+ 	height: 45%;
+ }
+
+ header{
+ 	text-align: center;
+    padding-top: 50px;
+     width: 822px;
+    margin-right: auto;
+    margin-left: auto;
+
+ }
+#logo {
+	float: left;
+}
+#logo, nav  {
+	display: inline-block;
+}   
+nav   {
+  	top: -24px;
+    position: relative;
+}
+nav a {
+    text-decoration: none;
+    color: #0A0A0A;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+
+    display: inline-block;
+    padding: 21px 51px;
+    background: url(../img/cloud-bg.png) no-repeat;
+    background-position: center;
+}
+#services img {
+    margin-right: auto;
+    margin-left: auto;
+}
