@@ -2,26 +2,26 @@ body
 {
 	font-family: 'Lato', sans-serif !important;
 }
-#logo
+.logo
 {
 	width: 111px;
 	position: relative;
     top: 18px;
     left: 90px;
 }
-#menu
+.list
 {
 	width: 900px;
     float: right;
     position: relative;
     top: -8px;
 }
-#menu ul
+.list ul
 {
   list-style: none;
 }
 
-#menu li
+.list li
 {
 	display: inline-block;
 	margin: 0 30px;
@@ -36,6 +36,7 @@ body
     margin-top: 35px;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 1349px;
 }
 .blocco
 {
@@ -84,6 +85,10 @@ body
     padding-top: 10px;
 }
 
+.rowfeatures
+{
+	width: 1349px;
+}
 .rowfeatures h1
 {
 	font-size: 60px;
@@ -98,6 +103,10 @@ body
     color: #95a5a6;
     font-weight: 300;
     text-align: center;
+}
+.rowimg
+{
+	width: 1349px;
 }
 .rowimg img
 {
@@ -204,7 +213,7 @@ body
     margin-top: 30px;s
 }	
 
-ul.dropdown-menu
+.dropdown-menu ul
 {
 	top: 54px;
     margin-left: 569px;
@@ -313,4 +322,176 @@ ul.dropdown-menu
     color: #34495e;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+.rowvideo
+{
+	height: 460px;
+}
+.rowvideo h2
+{
+	font-size: 36px;
+    color: #34495e;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.rowvideo h4 {
+    font-size: 32px;
+    color: #95a5a6;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.rowvideo p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #34495e;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.colp
+{
+	padding: 30px 100px !important;
+}
+video
+{
+	margin-top: 80px;
+	background-image: url('../img/imgvideo.webp');
+
+}
+.prezzi
+{
+	background-color: #ecf0f1;
+	height: 1050px;
+}
+.prezzi h2
+{
+	font-size: 60px;
+    color: #34495e;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 60px;
+}
+.prezzi h4
+{
+    font-size: 28px;
+    color: #95a5a6;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.rowprezzi 
+{
+    height: 1050px;
+}
+.col1, .col2, .col3 
+{
+    text-align: center;
+    width: 380px;
+}
+.col1 , .col3
+{
+	margin-top: 60px;
+}
+.col2
+{
+	margin-top: 30px;
+}
+.rowprezzi ul
+{
+	list-style: none;
+	padding: 0;
+	background: white;
+	margin: 0;
+}
+.rowprezzi li {
+    height: 72px;
+    padding-top: 20px;
+    font-size: 18px;
+    color: #7f8c8d;
+}
+.title1 , .title3
+ {
+    height: 72px;
+    background: #1abc9c;
+    padding-top: 20px;
+    font-size: 21px;
+    color: white;
+}
+.prezzo1 , .prezzo3
+{
+    height: 96px;
+    background: #16a085;   
+    padding-top: 10px;
+    font-size: 60px;
+    color: white;
+}
+
+.descr1 , .descr3{
+    height: 72px;
+    background: #1abc9c;
+    padding-top: 20px;
+    font-size: 21px;
+    color: white;
+}
+.title2 
+{
+	height: 96px;
+    background: #e74c3c;
+    padding-top: 20px;
+    font-size: 21px;
+    color: white;
+}
+.prezzo2
+{
+	height: 96px;
+    background: #c0392b;  
+    padding-top: 10px;
+    font-size: 60px;
+    color: white;
+}
+.descr2
+{
+    height: 72px;
+    background: #e74c3c;
+    padding-top: 20px;
+    font-size: 21px;
+    color: white;
+ }
+.buy1, .buy3 
+{
+    height: 96px;
+    background: #1abc9c;
+    padding-top: 24px;
+    padding-left: 120px;
+}
+.buy2
+{
+	height: 96px;
+    background: #e74c3c;
+    padding-top: 24px;
+    padding-left: 120px;
+}
+.diva2
+{
+	height: 48px;
+    width: 124px;
+    background: #c0392b;
+    padding-top: 10px;
+}
+.diva1 , .diva3 
+{
+    height: 48px;
+    width: 124px;
+    background: #16a085;
+    padding-top: 10px;
+}
+.buy1 a , .buy3 a , .buy2 a
+{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
 }
